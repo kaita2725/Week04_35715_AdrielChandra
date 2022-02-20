@@ -31,7 +31,7 @@ const BmrCalc: React.FC = () => {
         if(enteredGender === 'male'){
           bmr = 66 + (13.7 * +enteredWeight) + (5 * +enteredHeight) - (6.8 * +enteredAge!);
         } else if(enteredGender === 'female'){
-          bmr = 65 + (9.6 * +enteredWeight) + (1.8 * +enteredHeight) - (4. * +enteredAge!);
+          bmr = 65 + (9.6 * +enteredWeight) + (1.8 * +enteredHeight) - (4.7 * +enteredAge!);
         }
         console.log(bmr);
         setCalculatedBMR(bmr);
